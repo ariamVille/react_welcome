@@ -9,7 +9,12 @@ import Welcome from './components/Welcome/Welcome';
 
 class App extends Component {
 
- 
+  constructor(props){
+    super(props);
+    this.state = {
+      appName: 'Banana'
+    }
+  }
 
 
   render() {
@@ -21,8 +26,8 @@ class App extends Component {
 
             <div className="off-canvas-content" data-off-canvas-content>
                   
-                 <MobileHeader/>
-                 <Header />
+                 <MobileHeader name={this.state.appName}/>
+                 <Header name={this.state.appName}/>
                  <Welcome/>
                   <hr/>
                  <Footer/>

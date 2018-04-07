@@ -6,7 +6,7 @@ class MobileHeader extends Component {
       <div className="title-bar hide-for-large">
         <div className="title-bar-left">
           <button className="menu-icon" type="button" data-toggle="my-info"></button>
-          <span className="title-bar-title">Mike Mikerson</span>
+          <span className="title-bar-title">{this.props.name}</span>
         </div>
       </div>
     );
