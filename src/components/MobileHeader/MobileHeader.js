@@ -3,10 +3,10 @@ import './MobileHeader';
 class MobileHeader extends Component {
   render() {
     return (
-      <div class="title-bar hide-for-large">
-        <div class="title-bar-left">
-          <button class="menu-icon" type="button" data-toggle="my-info"></button>
-          <span class="title-bar-title">Mike Mikerson</span>
+      <div className="title-bar hide-for-large">
+        <div className="title-bar-left">
+          <button className="menu-icon" type="button" data-toggle="my-info"></button>
+          <span className="title-bar-title">Mike Mikerson</span>
         </div>
       </div>
     );

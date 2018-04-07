@@ -3,8 +3,8 @@ import './Footer';
 class Footer extends Component {
   render() {
     return (
-      <div class="row">
-        <div class="medium-12 cell">
+      <div className="row">
+        <div className="medium-12 cell">
           Footer part
         </div>
       </div>

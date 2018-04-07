@@ -5,9 +5,9 @@ class Header extends Component {
     return (
 
 
-      <div class="callout primary">
-        <article class="grid-container">
-          <div class="">
+      <div className="callout primary">
+        <article className="grid-container">
+          <div className="">
             <h1>Banana Project</h1>
           </div>
         </article>
